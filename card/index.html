@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lulo Inc.</title>
+		
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Lulo Inc. Agile Analytics. Artifical Intelligence. Colombia">
+		<meta name="keywords" content="Lulo Inc., Analytics, Agile Analytics, AI, Artificial Intelligence, Machine Learning, Data Science, Data Analytics, Colombia, Bogota, Bogotá">
+		<meta name="author" content="Lulo Inc.">
+		<meta name="copyright" content="Lulo Inc. S.A.S." />
+		<meta name="robots" content="index"/>
+		<meta name="distribution" content="global" />
+		<link rel="image_src" href="assets/images/logo-black.png" / >
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="http://luloinc.co"><img src="assets/images/logo-white.png" style="height: 6em;" /></a>
+						<!--<span style="font-family: Calibri; font-weight: bold; font-size: 5em">LULO</span> <span style="font-family: Calibri light;  font-size: 5em">Inc.</span>-->
+						<p>Agile Analytics</p>
+						
+						<nav>
+							<ul>
+								
+								<li><a href="http://luloinc.co" target="_blank" class="icon fa-home"><span class="label">Website</span></a></li>
+								<li><a id="link-email" href="mailto:fabiancpl@luloinc.co" target="_blank" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+								<li><a id="link-telephone" href="tel:+573173780011" target="_blank" class="icon fa-phone"><span class="label">Phone</span></a></li>
+								<li><a id="link-whatsapp" href="https://wa.me/+573173780011" target="_blank" class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+								<li><a href="https://www.linkedin.com/company/luloinc" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://www.facebook.com/luloinc/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/luloinc" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<span class="copyright">© 2019 Lulo Inc. S.A.S. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+				</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		
+		<script>
+			
+			const people = [
+				{
+					"key" : "fabian",
+					"name" : "Fabian Camilo Peña",
+					"email" : "fabiancpl@luloinc.co",
+					"tel" : "+573173780011"
+				},
+				{
+					"key" : "sergio",
+					"name" : "Sergio Andrés Ramirez",
+					"email" : "sergior@luloinc.co",
+					"tel" : "+573194810970"
+				}
+			];
+			
+			var search = window.location.host.replace( '.luloinc.co', '' );
+			
+			people.forEach( person => {
+				if( search === person.key ) {
+					console.log( person );
+					document.getElementById( 'link-email' ).setAttribute( 'href', 'mailto:' + person.email );
+					document.getElementById( 'link-telephone' ).setAttribute( 'href', 'tel:' + person.tel );
+					document.getElementById( 'link-whatsapp' ).setAttribute( 'href', 'https://wa.me/:' + person.tel );
+				} 
+				
+			} );
+			
+		</script>
+	</body>
+</html>

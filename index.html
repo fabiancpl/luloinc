@@ -2,57 +2,166 @@
 <html>
 	<head>
 		<title>Lulo Inc.</title>
-		
 		<meta charset="utf-8" />
-		<meta http-equiv="Content-Language" content="en" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Lulo Inc. Agile Analytics. Artifical Intelligence. Colombia">
 		<meta name="keywords" content="Lulo Inc., Analytics, Agile Analytics, AI, Artificial Intelligence, Machine Learning, Data Science, Data Analytics, Colombia, Bogota, Bogotá">
-		<meta name="author" content="Fabian Peña">
+		<meta name="author" content="Lulo Inc.">
 		<meta name="copyright" content="Lulo Inc. S.A.S." />
 		<meta name="robots" content="index"/>
 		<meta name="distribution" content="global" />
-		<link rel="image_src" href="assets/images/logo-black.png" / >
+		<link rel="image_src" href="images/logo-black.png" / >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<img src="assets/images/logo-white.png" style="height: 6em;" />
-						<!--<span style="font-family: Calibri; font-weight: bold; font-size: 5em">LULO</span> <span style="font-family: Calibri light;  font-size: 5em">Inc.</span>-->
-						<p>Agile Analytics</p>
+					<header id="header" class="alt">
+					
+					<a href="#banner">
+						<img src="images/logo-white.png" style="height: 2.2em; margin: 0.3em;"  />
+					</a>
 
-						<nav>
+						<nav id="nav">
 							<ul>
-								
-								
-								<li><a href="mailto:fabiancpl@luloinc.co" class="icon fa-envelope"><span class="label">Mail</span></a></li>
-								<li><a href="tel:+573173780011" class="icon fa-phone"><span class="label">Phone</span></a></li>
-								<li><a href="https://www.linkedin.com/company/luloinc" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/fabiancpl" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.facebook.com/luloinc/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#banner">Home</a></li>
+											<li><a href="#one">About Us</a></li>
+											<li><a href="#three">Solutions</a></li>
+											<li><a href="#footer">Contact Us</a></li>
+											
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</nav>
 					</header>
 
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<img src="images/logo-white.png" style="height: 6em;" />
+
+							<p>Agile Analytics</p>
+							
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>About us</h2>
+								<p>We will help you extract insights from data for effective decision-making through machine learning algorithms and interactive visualizations. We use agile methodologies for continuos stakeholder involvement and quick value generation.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="fas fa-chart-area"><span class="label" style="font-size: 2.7em;"></span></span></li>
+								<!--<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>-->
+							</ul>
+						</div>
+					</section>
+
+				<!-- 
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Magna primis lobortis<br />
+								sed ullamcorper</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Tortor dolore feugiat<br />
+								elementum magna</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Augue eleifend aliquet<br />
+								sed condimentum</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>Two -->
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Solutions</h2><br>
+								<h3 style="color: #E26410; font-size: 2em; margin:  0 0 0.1em 0">What can we do for you?</h3>
+							</header>
+							<ul class="features">
+								<li style="text-align: center;"><i class="fas fa-vial" style="font-size: 1.7em;"></i>
+									<h3>Data Modeling</h3>
+									<p>We can help you to take advantage of data by implementing statistical and machine learning models for more effective decision-making.</p>
+								</li>
+								<li style="text-align: center;"><i class="fas fa-chart-area" style="font-size: 1.7em;"></i>
+									<h3>Data Analysis</h3>
+									<p>Our experience involves different stages of data lifecycle: getting and transforming large amounts of data and creating interactive data visualizations for insights extraction.</p>
+								</li>
+								<li style="text-align: center;"><i class="fas fa-code" style="font-size: 1.7em;"></i>
+									<h3>Software Development</h3>
+									<p>For delivering data to staff and customers, you will need a robust and innovative software system applying agile development and cloud deployment common practices.</p>
+								</li>
+								
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- 
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="#" class="button fit primary">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>CTA -->
+
 				<!-- Footer -->
-				<footer id="footer">
-					<span class="copyright">© Lulo Inc. S.A.S. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-				</footer>
+					<footer id="footer">
+						<ul class="icons">
+							<h2>Contact us</h2>
+							<li><a href="mailto:fabiancpl@luloinc.co" class="fas fa-envelope"><span class="label"></span></a></li>
+								<li><a href="tel:+573173780011" class="fas fa-phone"><span class="label"></span></a></li>
+								<li><a href="https://wa.me/+573173780011" class="fab fa-whatsapp"><span class="label"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/luloinc" class="fab fa-linkedin"><span class="label"></span></a></li>
+								<li><a href="https://github.com/fabiancpl" class="fab fa-github"><span class="label"></span></a></li>
+								<li><a href="https://www.facebook.com/luloinc/" class="fab fa-facebook"><span class="label"></span></a></li>
+																
+						</ul>
+						<ul class="copyright">
+							<li>&copy; 2019 Lulo Inc. S.A.S.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
