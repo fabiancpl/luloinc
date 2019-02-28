@@ -2960,9 +2960,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #2e3842;
+			background-color: #BDBDBD;
 			color: #d3d4e4;
-		}
+		}		
+
 
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #ffffff;
